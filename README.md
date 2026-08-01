@@ -15,7 +15,7 @@ Three end-to-end data analytics case studies, each covering the same full workfl
 ## 🛒 Retail Sales Dashboard
 
 <p align="center">
-  <img src="./images/sales_dashboard_preview.png" alt="Retail Sales Dashboard" width="100%">
+  <img src="sales_dashboard_preview.png" alt="Retail Sales Dashboard" width="100%">
 </p>
 
 ---
@@ -23,7 +23,7 @@ Three end-to-end data analytics case studies, each covering the same full workfl
 ## 🏥 Hospital Readmission Dashboard
 
 <p align="center">
-  <img src="./images/healthcare_dashboard_preview.png" alt="Hospital Readmission Dashboard" width="100%">
+  <img src="healthcare_dashboard_preview.png" alt="Hospital Readmission Dashboard" width="100%">
 </p>
 
 ---
@@ -31,7 +31,7 @@ Three end-to-end data analytics case studies, each covering the same full workfl
 ## 📊 Business Profitability Dashboard
 
 <p align="center">
-  <img src="./images/consulting_dashboard_preview.png" alt="Business Profitability Dashboard" width="100%">
+  <img src="consulting_dashboard_preview.png" alt="Business Profitability Dashboard" width="100%">
 </p>
 
 ---
