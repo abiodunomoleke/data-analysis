@@ -10,7 +10,7 @@ Three end-to-end data analytics case studies, each covering the same full workfl
 
 |  |  |  |
 |---|---|---|
-| ![Sales dashboard](01-sales-analytics/dashboard/sales_dashboard_preview.png) | ![Healthcare dashboard](02-healthcare-analytics/dashboard/healthcare_dashboard_preview.png) | ![Consulting dashboard](03-management-consulting/dashboard/consulting_dashboard_preview.png) |
+| sales_dashboard_preview.png) | healthcare_dashboard_preview.png) | consulting_dashboard_preview.png) |
 
 ## About
 
