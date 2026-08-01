@@ -1,70 +1,146 @@
 # Data Analyst Portfolio — Abiodun Omoleke
 
-Three end-to-end data analytics case studies, each covering the same full workflow — SQL analysis, a formula-driven Excel model, and a BI-style dashboard — applied to three different domains: retail sales, healthcare operations, and management consulting.
+Three end-to-end data analytics case studies, each covering the same full workflow—SQL analysis, a formula-driven Excel model, and a BI-style dashboard—applied to three different domains: retail sales, healthcare operations, and management consulting.
 
-| Project | Domain | Headline finding |
-|---|---|---|
-| [`01-sales-analytics`](01-sales-analytics/) | Retail Sales | Revenue grew 13.9% YoY *with* margin improving — but Wholesale (20% of orders) drives 66.6% of revenue |
-| [`02-healthcare-analytics`](02-healthcare-analytics/) | Healthcare Operations | 7.1% 30-day readmission rate; age group barely predicts risk — diagnosis and department do |
-| [`03-management-consulting`](03-management-consulting/) | Management Consulting | One business unit is at breakeven, one is declining — and the profitability gap is a business-unit story, not a regional one |
+| Project | Domain | Headline Finding |
+|---------|--------|------------------|
+| [01-sales-analytics](01-sales-analytics/) | Retail Sales | Revenue grew **13.9% YoY** while margin improved. Wholesale represents only **20%** of orders but generates **66.6%** of revenue. |
+| [02-healthcare-analytics](02-healthcare-analytics/) | Healthcare Operations | 30-day readmission rate is **7.1%**. Diagnosis and department predict risk more strongly than age. |
+| [03-management-consulting](03-management-consulting/) | Management Consulting | One business unit is operating at breakeven while another is declining, highlighting profitability differences between business units rather than regions. |
+
+---
 
 # Dashboard Portfolio
 
 ## 🛒 Retail Sales Dashboard
 
-![Retail Sales Dashboard](images/sales_dashboard_preview.png)
+<p align="center">
+  <img src="./images/sales_dashboard_preview.png" alt="Retail Sales Dashboard" width="100%">
+</p>
+
+---
 
 ## 🏥 Hospital Readmission Dashboard
 
-![Hospital Dashboard](images/healthcare_dashboard_preview.png)
+<p align="center">
+  <img src="./images/healthcare_dashboard_preview.png" alt="Hospital Readmission Dashboard" width="100%">
+</p>
+
+---
 
 ## 📊 Business Profitability Dashboard
 
-![Business Dashboard](images/consulting_dashboard_preview.png)
+<p align="center">
+  <img src="./images/consulting_dashboard_preview.png" alt="Business Profitability Dashboard" width="100%">
+</p>
 
-## About
+---
 
-I'm a data analyst with a background spanning procurement & logistics, marketing management, and hospitality, now focused on data analysis. I hold Microsoft and LinkedIn certifications in Data Analysis and Business Analysis, and I'm currently looking for remote data analyst roles.
+# About
 
-- LinkedIn: [linkedin.com/in/abiodunomoleke](https://www.linkedin.com/in/abiodunomoleke/)
+I'm a data analyst with a background spanning procurement & logistics, marketing management, and hospitality, now focused on data analytics. I hold Microsoft and LinkedIn certifications in Data Analysis and Business Analysis and I'm currently seeking remote Data Analyst opportunities.
 
-## What this portfolio demonstrates
+**LinkedIn**
 
-- **SQL**: schema design, aggregation logic (`GROUP BY`, `SUMIF`-equivalents), time-window comparisons (YoY, quarterly trend), cohort/statistical-reliability filtering (`HAVING count >= n`)
-- **Excel**: fully formula-driven workbooks — every summary tab recalculates from raw data using `SUMIFS`/`COUNTIFS`/`AVERAGEIFS`, nothing is hardcoded — plus native Excel charts
-- **Dashboard design**: BI-style dashboards (KPI cards, trend lines, comparative bar charts) that actually work — each has a left-hand slicer panel, and every number on the page recomputes live in the browser from the underlying row-level data as filters are applied, with a written build guide in each project's README for recreating it as a live Power BI or Tableau report
-- **Business framing**: every project starts from a stated business problem and ends with specific, numbers-backed recommendations — not just charts for their own sake
+https://www.linkedin.com/in/abiodunomoleke/
 
-## Repository structure
+---
+
+# What This Portfolio Demonstrates
+
+### SQL
+- Database schema design
+- Aggregation and analytical queries
+- Time-series analysis
+- Year-over-year comparisons
+- Cohort filtering
+- Window functions
+- Business KPI calculations
+
+### Excel
+- Formula-driven dashboards
+- SUMIFS
+- COUNTIFS
+- AVERAGEIFS
+- Dynamic KPI calculations
+- Native Excel charts
+- No hardcoded summaries
+
+### Dashboard Design
+- Interactive dashboards
+- KPI cards
+- Trend analysis
+- Regional comparisons
+- Category breakdowns
+- Browser-based filtering
+- Power BI/Tableau style layouts
+
+### Business Analysis
+Each project begins with a business problem and concludes with actionable recommendations supported by quantitative analysis.
+
+---
+
+# Repository Structure
 
 ```text
 data-analyst-portfolio/
-├── README.md                    -- this file
-├── PUBLISHING.md                -- how to push this to your own GitHub account
-├── images/                      -- dashboard preview images
+├── README.md
+├── PUBLISHING.md
+├── images/
 │   ├── sales_dashboard_preview.png
 │   ├── healthcare_dashboard_preview.png
 │   └── consulting_dashboard_preview.png
 ├── 01-sales-analytics/
 │   ├── README.md
-│   ├── data/                    -- source CSV
-│   ├── sql/                     -- schema + analysis queries
-│   ├── excel/                   -- formula-driven workbook
-│   └── dashboard/               -- interactive HTML dashboard preview
+│   ├── data/
+│   ├── sql/
+│   ├── excel/
+│   └── dashboard/
 ├── 02-healthcare-analytics/
-│   └── (same structure)
+│   ├── README.md
+│   ├── data/
+│   ├── sql/
+│   ├── excel/
+│   └── dashboard/
 └── 03-management-consulting/
-    └── (same structure)
+    ├── README.md
+    ├── data/
+    ├── sql/
+    ├── excel/
+    └── dashboard/
 ```
 
-## A note on the data
+---
 
-All three datasets are **synthetic** — generated programmatically rather than sourced from a real company, hospital, or client — because real proprietary data can't be published in a public portfolio. That said, each dataset was built with realistic structure (seasonality, department-specific clinical patterns, business-unit-specific margin profiles) and every number quoted in each project's README was computed directly from the raw data and independently validated in both SQL and Excel, so the analysis technique on display is exactly what would be applied to real data.
+# A Note on the Data
 
-## Quick start
+All datasets in this portfolio are **synthetically generated** for demonstration purposes. Although they are not sourced from real organizations, they were designed to mimic realistic business scenarios, seasonal trends, operational patterns, and financial behaviour.
 
-Each project folder is self-contained. To explore a project:
-1. Open its `README.md` for the business problem, methodology, and key insights.
-2. Open the `.xlsx` file in the `excel/` folder to see the formula-driven model.
-3. Open the `.html` file in the `dashboard/` folder in any browser to see the interactive dashboard (works offline — no setup required).
-4. Load the `.csv` from `data/` into the SQL engine of your choice using the matching `sql/schema.sql`, then run `sql/analysis_queries.sql`.
+Every KPI, chart, and insight presented throughout the projects is calculated directly from the underlying data using SQL and Excel.
+
+---
+
+# Quick Start
+
+Each project is fully self-contained.
+
+1. Read the project's **README.md** for the business case and insights.
+2. Explore the **Excel workbook** in the `excel/` folder.
+3. Open the interactive dashboard in the `dashboard/` folder.
+4. Import the CSV data into your preferred SQL database.
+5. Execute the SQL scripts located in the `sql/` folder.
+
+---
+
+## Skills Demonstrated
+
+- SQL
+- Excel
+- Data Cleaning
+- Data Visualization
+- Dashboard Design
+- Business Intelligence
+- Data Storytelling
+- KPI Reporting
+- Trend Analysis
+- Business Analysis
