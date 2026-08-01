@@ -11,12 +11,15 @@ Three end-to-end data analytics case studies, each covering the same full workfl
 # Dashboard Portfolio
 
 ## 🛒 Retail Sales Dashboard
+
 ![Retail Sales Dashboard](images/sales_dashboard_preview.png)
 
 ## 🏥 Hospital Readmission Dashboard
+
 ![Hospital Dashboard](images/healthcare_dashboard_preview.png)
 
 ## 📊 Business Profitability Dashboard
+
 ![Business Dashboard](images/consulting_dashboard_preview.png)
 
 ## About
@@ -34,16 +37,20 @@ I'm a data analyst with a background spanning procurement & logistics, marketing
 
 ## Repository structure
 
-```
+```text
 data-analyst-portfolio/
-├── README.md                      -- this file
-├── PUBLISHING.md                  -- how to push this to your own GitHub account
+├── README.md                    -- this file
+├── PUBLISHING.md                -- how to push this to your own GitHub account
+├── images/                      -- dashboard preview images
+│   ├── sales_dashboard_preview.png
+│   ├── healthcare_dashboard_preview.png
+│   └── consulting_dashboard_preview.png
 ├── 01-sales-analytics/
 │   ├── README.md
-│   ├── data/                      -- source CSV
-│   ├── sql/                       -- schema + analysis queries
-│   ├── excel/                     -- formula-driven workbook
-│   └── dashboard/                 -- interactive HTML dashboard preview
+│   ├── data/                    -- source CSV
+│   ├── sql/                     -- schema + analysis queries
+│   ├── excel/                   -- formula-driven workbook
+│   └── dashboard/               -- interactive HTML dashboard preview
 ├── 02-healthcare-analytics/
 │   └── (same structure)
 └── 03-management-consulting/
