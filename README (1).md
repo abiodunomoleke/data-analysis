@@ -1,4 +1,4 @@
-# Data Analyst Portfolio — Raphael (Abiodun) Omoleke
+# Data Analyst Portfolio — Abiodun Omoleke
 
 Three end-to-end data analytics case studies, each covering the same full workflow — SQL analysis, a formula-driven Excel model, and a BI-style dashboard — applied to three different domains: retail sales, healthcare operations, and management consulting.
 
