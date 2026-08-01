@@ -8,9 +8,16 @@ Three end-to-end data analytics case studies, each covering the same full workfl
 | [`02-healthcare-analytics`](02-healthcare-analytics/) | Healthcare Operations | 7.1% 30-day readmission rate; age group barely predicts risk — diagnosis and department do |
 | [`03-management-consulting`](03-management-consulting/) | Management Consulting | One business unit is at breakeven, one is declining — and the profitability gap is a business-unit story, not a regional one |
 
-|  |  |  |
-|---|---|---|
-| sales_dashboard_preview.png | healthcare_dashboard_preview.png | consulting_dashboard_preview.png |
+# Dashboard Portfolio
+
+## 🛒 Retail Sales Dashboard
+![Retail Sales Dashboard](images/sales_dashboard_preview.png)
+
+## 🏥 Hospital Readmission Dashboard
+![Hospital Dashboard](images/healthcare_dashboard_preview.png)
+
+## 📊 Business Profitability Dashboard
+![Business Dashboard](images/consulting_dashboard_preview.png)
 
 ## About
 
